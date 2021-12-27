@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="~/Scripts/jquery-3.3.1.min.js" defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+    <title>Report Card</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div>
+      <div>
+        <div class="report-heading">
+          <img src="./mySEAT2021(RGB)-01 5.png" alt="logo" />
+          <p>Report Card</p>
+        </div>
+        <div class="details">
+          <p id="name">Aakash Saxena</p>
+          <p>Class : <span id="cls">10th</span></p>
+          <p>Attempted On : <span id="date">10 Dec 2021</span></p>
+        </div>
+        <div class="marks-container">
+          <div class="score">
+            <div class="test-score">
+              <img src="./TEST SCORE IMAGE PNG.png" />
+              <div>
+                <p>Test Score</p>
+                <p style="color: #012c63">210/300</p>
+              </div>
+            </div>
+            <div class="inter-score">
+              <img src="./INTERVIEW SCORE PNG.png" />
+              <div>
+                <p>Interview Score</p>
+                <p style="color: #012c63">85/100</p>
+              </div>
+            </div>
+          </div>
+          <div class="percentile">
+            <img src="./percentile.png" />
+            <p>Percentile</p>
+            <p style="color: #012c63">80</p>
+          </div>
+          <div class="rank">
+            <img src="./ai rank.png" />
+            <p>All India Rank</p>
+            <p style="color: #012c63">10</p>
+          </div>
+        </div>
+        <div class="air-info">
+          <img src="./star-circle.png" />
+          <p>
+            All India Rank (AIR) is calculated <br />
+            on the basis of your performance <br />
+            in test and personal interview.
+          </p>
+          <img src="./star-circle.png" />
+        </div>
+        <div class="scholarship">
+          <div class="schol-heading">
+            <h3>Scholarship For You</h3>
+            <p>
+              Congratulations on your performance in mySEAT 2021. Based on your
+              performance, you get the following benefits:
+            </p>
+          </div>
+          <div class="waiver-box-container">
+            <div class="waiver-box">
+              <img src="./SR 1.png" alt="" />
+              <p class="fees">myClassroom Tution Fee</p>
+              <p class="waiver-perc">85%</p>
+              <p class="waiver-txt">Waiver</p>
+            </div>
+            <div class="waiver-box">
+              <img src="./SR 2.png" alt="" />
+              <p class="fees">Admission Fee</p>
+              <p class="waiver-perc">85%</p>
+              <p class="waiver-txt">Waiver</p>
+            </div>
+            <div class="waiver-box">
+              <img src="./SR 3.png" alt="" />
+              <p class="fees">School Tution Fee</p>
+              <p class="waiver-perc">85%</p>
+              <p class="waiver-txt">Waiver</p>
+            </div>
+          </div>
+        </div>
+        <div class="performance-details">
+          <div class="perform-heading">
+            <h3>Perfomance Details</h3>
+          </div>
+        </div>
+        <hr />
+        <div class="scoring">
+          <div class="score-heading">
+            <p>Score</p>
+            <p id="total-mark">Total marks</p>
+            <p>Your Score</p>
+            <p>Percentage</p>
+            <p>Reviews</p>
+          </div>
+          <div class="score-data">
+            <p class="subj">Physics</p>
+            <p class="markss">100</p>
+            <p class="markss">19</p>
+            <p class="percentage-1">20%<span class="span">.</span></p>
+            <p>You need immediate attention and personalised guidance.</p>
+          </div>
+          <div class="score-data">
+            <p class="subj">Chemistry</p>
+            <p class="markss">17</p>
+            <p class="markss">18</p>
+            <p class="percentage-2">20%<span class="span">.</span></p>
+            <p>With a little more effort, you can do wonders.</p>
+          </div>
+          <div class="score-data">
+            <p class="subj">Mathematics</p>
+            <p class="markss">14</p>
+            <p class="markss">17</p>
+            <p class="percentage-3">20%<span class="span">.</span></p>
+            <p>It is your strong area. Keep learning and become a champion.</p>
+          </div>
+          <div class="score-data">
+            <p class="subj">Biology</p>
+            <p class="markss">20</p>
+            <p class="markss">11</p>
+            <p class="percentage-4">20%<span class="span">.</span></p>
+            <p>
+              You are very bright in Biology. Keep practicing and become a pro.
+            </p>
+          </div>
+          <div class="score-data">
+            <p class="subj">MAT</p>
+            <p class="markss">21</p>
+            <p class="markss">13</p>
+            <p class="percentage-5">20%<span class="span">.</span></p>
+            <p>
+              You are a pro. Prepare for national competitions and ace them.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
